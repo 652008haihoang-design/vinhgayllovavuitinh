@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinh Gay - Hack Free Fire Uy Tín #1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0f0f13;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background: linear-gradient(145deg, #181920, #111217);
+            border: 2px solid #ff4b2b;
+            border-radius: 20px;
+            padding: 30px;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 0 25px rgba(255, 75, 43, 0.3);
+        }
+
+        .badge {
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            color: #fff;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            color: #ff4b2b;
+            text-shadow: 0 0 10px rgba(255, 75, 43, 0.5);
+        }
+
+        /* Thẻ tính năng / Uy tín */
+        .features {
+            margin: 20px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .feature-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 12px 15px;
+            border-radius: 10px;
+            border-left: 4px solid #ff4b2b;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        /* Dòng chữ chạy từ từ */
+        #typing-container {
+            font-size: 1rem;
+            color: #cccccc;
+            min-height: 70px;
+            margin: 20px 0;
+            line-height: 1.5;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px dashed rgba(255, 255, 255, 0.2);
+            white-space: pre-line;
+            text-align: left;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 2px;
+            background-color: #ff4b2b;
+            animation: blink 0.7s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        /* Nút Mua Hàng */
+        .buy-btn {
+            display: block;
+            width: 100%;
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            color: white;
+            padding: 15px 20px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(255, 75, 43, 0.4);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .buy-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 75, 43, 0.6);
+            background: linear-gradient(45deg, #ff4b2b, #ff416c);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <span class="badge">Dịch Vụ Game Uy Tín</span>
+        <h1>HACK FREE FIRE - <span class="highlight">VINH GAY</span></h1>
+
+        <div class="features">
+            <div class="feature-item">🔥 <b>Chất lượng:</b> Bản hack mượt mà, chống khóa nick an toàn.</div>
+            <div class="feature-item">⭐ <b>Uy tín:</b> Giao dịch nhanh gọn, đảm bảo 100%.</div>
+            <div class="feature-item">💬 <b>Nhiệt tình:</b> Hỗ trợ cài đặt chi tiết A-Z từ Admin Vinh Gay.</div>
+        </div>
+
+        <!-- Khung chữ chạy từ từ -->
+        <div id="typing-container">
+            <span id="typed-text"></span><span class="cursor">&nbsp;</span>
+        </div>
+
+        <!-- Nút Mua Hàng -->
+        <a href="https://www.facebook.com/share/1HWagkGfdV/?mibextid=wwXIfr" target="_blank" class="buy-btn">
+            Ấn vào đây để mua
+        </a>
+    </div>
+
+    <script>
+        // Nội dung lời chào quảng cáo
+        const text = "Chào anh em! Mình là Vinh Gay chuyên cung cấp các bản Hack Free Fire chất lượng cao, an toàn và cực kỳ uy tín.\nHỗ trợ nhiệt tình 24/7 cho anh em cài đặt dễ dàng!";
+        
+        let index = 0;
+        const speed = 50; // Tốc độ chạy chữ
+
+        function typeWriter() {
+            if (index < text.length) {
+                document.getElementById("typed-text").textContent += text.charAt(index);
+                index++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+
+        window.onload = typeWriter;
+    </script>
+
+</body>
+</html>
